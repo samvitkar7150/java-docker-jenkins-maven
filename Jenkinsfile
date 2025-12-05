@@ -11,7 +11,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/java-docker-jenkins-maven.git'
+                    url: 'https://github.com/samvitkar7150/java-docker-jenkins-maven.git'
             }
         }
 
